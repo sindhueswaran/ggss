@@ -1,0 +1,53 @@
+
+<section id="contact">
+
+  <div class="container col-sm-12">
+    <h1 class="title">CONTACT</h1>
+    <h4 class="title">get in touch</h4>
+     <div class="row">
+
+    
+    <div class="col-md-3 offset-md-2 justify-content-end ">
+      
+        <h5>{{ .Site.Params.banking.title }} </h5>
+        <p class="banking-text"> 
+          <small class="text-muted">Account Holder Name:</small>
+            {{ .Site.Params.banking.accountname }} <br>
+            <small class="text-muted">Bank Account No:</small> 
+            {{ .Site.Params.banking.accountnumber }} <br>
+            <small class="text-muted">IFSC Code:</small> 
+            {{ .Site.Params.banking.ifsc}} <br>
+            <small class="text-muted">SWIFT:</small> 
+            {{ .Site.Params.banking.swift }} <br>
+            <small class="text-muted">Bank Name:</small> 
+            {{ .Site.Params.banking.bank }} <br>
+            <small class="text-muted">Branch:</small> 
+            {{ .Site.Params.banking.branch }} </p> 
+      </div>
+    
+    <div class="col-sm-6"> 
+      <h5>{{ .Site.Params.form.title }} </h5>
+      <form class="row gx-3 gy-3 align-items-center">
+        <div class="col-sm-6">
+          <label class="visually-hidden" for="specificSizeInputName">Name</label>
+          <input type="text" class="form-control" id="specificSizeInputName" placeholder="Name">
+        </div>
+        <div class="col-sm-6">
+          <label class="visually-hidden" for="specificSizeInputGroupUsername">Email</label>
+          <div class="input-group"> 
+            <input type="text" class="form-control" id="specificSizeInputGroupEmail" placeholder="Email">
+          </div>
+        </div>
+        <div class="input-group">     
+          <textarea class="form-control" aria-label="With textarea" id="specificSizeInputGroupMessage" placeholder="Your Message"></textarea>
+        </div>
+       
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">{{ .Site.Params.form.button }} </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+
+</section>

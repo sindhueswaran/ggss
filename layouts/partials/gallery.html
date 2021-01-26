@@ -1,0 +1,20 @@
+
+<section id="gallery">
+
+</section>
+    <div class="container">
+        <h1 class="title">Gallery</h1>
+    <div class="container">
+        <div class="row">
+            {{ range .Site.Data.gallery.gallery }}
+            <div class="col-md-3 mb-4">
+             <a href="{{ .img }}" data-lightbox="gallery" data-title="{{ .alt }}">
+                <img class="example-image" src="{{ .img }}" alt="{{ .alt }}" style="width:100%;" />
+            </a> 
+            </div>
+            {{ end }}
+        </div> 
+        
+         </div>
+    </div>
+<hr class="divider">

@@ -1,0 +1,22 @@
+<section id="team">
+
+<div class="container  ">
+    <h1 class="title">{{ .Site.Params.team.title }}</h1>
+    <div class="row ">
+      {{ range .Site.Params.team.members }}
+    <div class="col-md-3 col-xs-12 card border-0 ">
+        
+        <img src="{{ $.Site.BaseURL }}{{ .img }}" class="team-img" alt="{{ .name }}">
+         
+        <div class="card-body">
+            <h4 class="card-text text-center">{{ .name }}</h4>
+          <p class="card-text text-center">{{ .text }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>      
+</div>
+
+<hr class="divider">
+
+</section>

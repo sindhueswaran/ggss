@@ -1,0 +1,25 @@
+gallery:
+  - img: "../images/1.jpg"
+    thumb: "../images/1.jpg"
+    alt: Gaintkal womens group
+  - img: "../images/2.jpg"
+    thumb: "../images/2.jpg"
+    alt: Some text
+  - img: "../images/3.jpg"
+    thumb: "../images/3.jpg"
+    alt: Some text
+  - img: "../images/3.jpg"
+    thumb: "../images/3.jpg"
+    alt: Some text  
+  - img: "../images/4.jpg"
+    thumb: "../images/4.jpg"
+    alt: Some text        
+  - img: "../images/1.jpg"
+    thumb: "../images/1.jpg"
+    alt: Gaintkal womens group
+  - img: "../images/2.jpg"
+    thumb: "../images/2.jpg"
+    alt: Some text
+  - img: "../images/3.jpg"
+    thumb: "../images/3.jpg"
+    alt: Some text 

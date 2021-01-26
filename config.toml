@@ -1,0 +1,68 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Guru Gobind Seva Sansthan"
+ 
+
+# The sites parameters
+[params]
+  home = "Home"
+  
+  [menu]
+
+    [[menu.header]]
+      weight = 1
+      name = "HOME"
+      url = "/"
+    [[menu.header]]
+      weight = 2
+      name = "GALLERY"
+      url = "#gallery"  
+    [[menu.header]]
+      weight = 3
+      name = "CONTACT"
+      url = "#contact"
+
+	[params.hero]
+		title="GURU GOBIND SEWA SANSTHAN"
+		subtitle=""
+		button="DONATE"
+		url="#contact"
+
+	[params.about]
+		title="About"
+		img = "../images/da.jpg"
+		description="Our trust Shri Guru Gobind Singh Ji Sarv Dharam Parkashta Sewa Sanshtan was founded in 2015 with the inspiration of Shri Arjinder Singh living in Canada. Guru Gobind Sewa Sansthan aims to educate poverty affected children living in slum areas so they can become useful members of society. Our Trust's main focus is to serve all regardless of religion or caste through education and health."
+ 
+
+	[params.team]
+		title="Our Team"
+
+		[[params.team.members]] 
+		  name = "Dr. Atul Negi"
+		  img = "../images/da.jpg"
+		  text="Founder"
+		[[params.team.members]] 
+		  name = "Dr. Atul"
+		  img = "../images/da.jpg"
+		  text="Founder"
+    	[[params.team.members]] 
+		  name = "Dr. Atul"
+		  img = "../images/da.jpg"
+		  text="Founder"
+    	[[params.team.members]] 
+		  name = "Dr. Atul"
+		  img = "../images/da.jpg"
+		  text="Founder"    	
+	
+	[params.banking]
+		  title="Banking Details"
+		  accountname="XXX-XXX"
+          accountnumber="XXX-XXX"
+          ifsc="XXX-XXX"
+          swift="XXX-XXX"
+          bank="XXX-XXX"
+		  branch="XXX-XXX"
+	
+	[params.form]
+		  title="Write to us."
+		  button="SUBMIT"	  
