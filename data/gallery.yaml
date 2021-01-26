@@ -1,25 +1,25 @@
 gallery:
-  - img: "https://picsum.photos/300/200?random=1"
+  - img: "https://picsum.photos/600/400?random=1"
     thumb: "https://picsum.photos/300/200?random=1"
     alt: Image Caption
-  - img: "https://picsum.photos/300/200?random=2"
+  - img: "https://picsum.photos/600/400?random=2"
     thumb: "https://picsum.photos/300/200?random=2"
     alt: Image Caption
-  - img: "https://picsum.photos/300/200?random=3"
+  - img: "https://picsum.photos/600/400?random=3"
     thumb: "https://picsum.photos/300/200?random=3"
     alt: Image Caption
-  - img: "https://picsum.photos/300/200?random=4"
+  - img: "https://picsum.photos/600/400?random=4"
     thumb: "https://picsum.photos/300/200?random=4"
     alt: Image Caption
-  - img: "https://picsum.photos/300/200?random=5"
+  - img: "https://picsum.photos/600/400?random=5"
     thumb: "https://picsum.photos/300/200?random=5"
     alt: Image Caption  
-  - img: "https://picsum.photos/300/200?random=6"
+  - img: "https://picsum.photos/600/400?random=6"
     thumb: "https://picsum.photos/300/200?random=6"
     alt: Image Caption
-  - img: "https://picsum.photos/300/200?random=7"
+  - img: "https://picsum.photos/600/400?random=7"
     thumb: "https://picsum.photos/300/200?random=7"
     alt: Image Caption
-  - img: "https://picsum.photos/300/200?random=8"
+  - img: "https://picsum.photos/600/400?random=8"
     thumb: "https://picsum.photos/300/200?random=8"
     alt: Image Caption
