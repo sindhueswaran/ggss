@@ -1,4 +1,4 @@
-baseURL = "https://ggss.netlify.app/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Guru Gobind Seva Sansthan"
  
@@ -38,21 +38,14 @@ title = "Guru Gobind Seva Sansthan"
 		title="Our Team"
 
 		[[params.team.members]] 
+		  name = "Shri Arjinder Singh"
+		  img = "../images/arjinder-singh.jpg"
+		  text="Founder"
+    	[[params.team.members]] 
 		  name = "Dr. Atul Negi"
 		  img = "../images/da.jpg"
 		  text="Founder"
-		[[params.team.members]] 
-		  name = "Dr. Atul"
-		  img = "../images/da.jpg"
-		  text="Founder"
-    	[[params.team.members]] 
-		  name = "Dr. Atul"
-		  img = "../images/da.jpg"
-		  text="Founder"
-    	[[params.team.members]] 
-		  name = "Dr. Atul"
-		  img = "../images/da.jpg"
-		  text="Founder"    	
+    	     	
 	
 	[params.banking]
 		  title="Banking Details"
