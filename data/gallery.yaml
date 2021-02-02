@@ -1,25 +1,13 @@
 gallery:
-  - img: "https://picsum.photos/600/400?random=1"
-    thumb: "https://picsum.photos/300/200?random=1"
+  - img: "../images/1.jpg"
+    thumb: "../images/1.jpg"
     alt: Image Caption
-  - img: "https://picsum.photos/600/400?random=2"
-    thumb: "https://picsum.photos/300/200?random=2"
-    alt: Image Caption
-  - img: "https://picsum.photos/600/400?random=3"
-    thumb: "https://picsum.photos/300/200?random=3"
-    alt: Image Caption
-  - img: "https://picsum.photos/600/400?random=4"
-    thumb: "https://picsum.photos/300/200?random=4"
-    alt: Image Caption
-  - img: "https://picsum.photos/600/400?random=5"
-    thumb: "https://picsum.photos/300/200?random=5"
-    alt: Image Caption  
-  - img: "https://picsum.photos/600/400?random=6"
-    thumb: "https://picsum.photos/300/200?random=6"
-    alt: Image Caption
-  - img: "https://picsum.photos/600/400?random=7"
-    thumb: "https://picsum.photos/300/200?random=7"
-    alt: Image Caption
-  - img: "https://picsum.photos/600/400?random=8"
-    thumb: "https://picsum.photos/300/200?random=8"
-    alt: Image Caption
+  - img: "../images/2.jpg"
+    thumb: "../images/2.jpg"
+    alt: 20 December 2018,  Donation of games - Carrom, Badminton at Bal Vikas Shikshan Sansthan (BVSS) Gaindkhal, Yamkeshvar, Pauri Garhwal, Uttrakhand
+  - img: "../images/3.jpg"
+    thumb: "../images/3.jpg"
+    alt: 26 july 2017, Tree Plantation at Gaindkhal Market, Yamkeshvar District, Pauri Garhwal, Uttrakhand
+  - img: "../images/4.jpg"
+    thumb: "../images/4.jpg"
+    alt: Image Caption       
