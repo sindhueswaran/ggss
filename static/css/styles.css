@@ -17,7 +17,7 @@
  }
 
  .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/ggsshero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/gshero.jpg");
     width: 100%;
     height: 100vh; 
     background-position: center;
