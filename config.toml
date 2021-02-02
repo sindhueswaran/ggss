@@ -30,7 +30,7 @@ title = "Guru Gobind Seva Sansthan"
 
 	[params.about]
 		title="About"
-		img = "../images/da.jpg"
+		img = "/images/ggsslogo.png"
 		description="Our trust Shri Guru Gobind Singh Ji Sarv Dharam Parkashta Sewa Sanshtan was founded in 2015 with the inspiration of Shri Arjinder Singh living in Canada. Guru Gobind Sewa Sansthan aims to educate poverty affected children living in slum areas so they can become useful members of society. Our Trust's main focus is to serve all regardless of religion or caste through education and health."
  
 
