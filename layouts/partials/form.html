@@ -29,8 +29,10 @@
       <h5>{{ .Site.Params.form.title }} </h5>
  
       <form class="row gx-3 gy-3 align-items-center" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        
         <p class="hidden" style="display: none;">
           <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          <input type="text" name="subject" value="{{email}} has sent a message from yourwebsite.com" class="hidden">
         </p>
         <div class="col-sm-6">
           <label class="visually-hidden" for="specificSizeInputName">Name</label>
