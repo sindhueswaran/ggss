@@ -8,9 +8,20 @@
 
       <div class="col-lg-4"> 
         <h5 class="sub-title">{{ .Site.Params.form.contacttitle }} </h5>
-        <h6 class="contact-text"><ion-icon name="call-outline" class="contact-icon"></ion-icon> &emsp; {{ .Site.Params.form.phone }} </h6>
-        <h6 class="contact-text" ><ion-icon name="logo-whatsapp" class="contact-icon"></ion-icon> &emsp; {{ .Site.Params.form.whatsapp }} </h6>
-        <h6 class="contact-text"> <ion-icon name="mail-open-outline" class="contact-icon"></ion-icon> &emsp; {{ .Site.Params.form.email }} </h6> 
+        <h6 class="contact-text">
+          <a class="text-decoration-none link-secondary" href="tel:{{ .Site.Params.form.phone }}">
+          <ion-icon name="call-outline" class="contact-icon"></ion-icon> &emsp; {{ .Site.Params.form.phone }} 
+        </a></h6>
+
+        <h6 class="contact-text" >
+          <a class="text-decoration-none link-secondary" href="https://wa.me/{{ .Site.Params.form.whatsapp }}">
+          <ion-icon name="logo-whatsapp" class="contact-icon"></ion-icon> &emsp; {{ .Site.Params.form.whatsapp }} 
+        </a></h6>
+        
+        <h6 class="contact-text"> 
+          <a class="text-decoration-none link-secondary" href="mailto:{{ .Site.Params.form.email }}">
+            <ion-icon name="mail-open-outline" class="contact-icon"></ion-icon> &emsp; {{ .Site.Params.form.email }} 
+          </a></h6> 
          
       </div>
  
